@@ -1,10 +1,10 @@
-
+import Login from './Todo/pages/Login/page';
 function page() {
   return (
-    <div>
-      <h1>My Todo App</h1>
+    <div className='w-full'>
+      <Login/>
     </div>
   )
 }
 
-export default page
+export default page;
